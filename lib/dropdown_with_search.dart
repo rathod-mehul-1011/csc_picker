@@ -65,7 +65,7 @@ class DropdownWithSearch<T> extends StatelessWidget {
           });
         },
         child: Container(
-          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
+          padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
           decoration: !disabled
               ? decoration != null
                   ? decoration
@@ -88,7 +88,6 @@ class DropdownWithSearch<T> extends StatelessWidget {
                       style: selectedItemStyle != null
                           ? selectedItemStyle
                           : TextStyle(fontSize: 14))),
-              Icon(Icons.keyboard_arrow_down_rounded)
             ],
           ),
         ),
