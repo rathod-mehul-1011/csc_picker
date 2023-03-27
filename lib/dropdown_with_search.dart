@@ -65,7 +65,7 @@ class DropdownWithSearch<T> extends StatelessWidget {
           });
         },
         child: Container(
-          padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+          padding: selectedItemPadding,
           decoration: !disabled
               ? decoration != null
                   ? decoration
