@@ -604,7 +604,6 @@ class CSCPickerState extends State<CSCPicker> {
       _countryFilter = widget.countryFilter!;
     }
     getCountries();
-    _selectedCity = widget.cityDropdownLabel;
     _selectedState = widget.stateDropdownLabel;
   }
 
