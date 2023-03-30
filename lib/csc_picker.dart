@@ -605,6 +605,7 @@ class CSCPickerState extends State<CSCPicker> {
     }
     getCountries();
     _selectedState = widget.stateDropdownLabel;
+    _selectedCity = widget.cityDropdownLabel;
   }
 
   Future<void> setDefaults() async {
